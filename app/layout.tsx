@@ -1,3 +1,5 @@
+import { plusJakarta } from "@/app/ui/fonts";
+
 export default function RootLayout({
   children,
 }: {
@@ -5,7 +7,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body
+        className={`${plusJakarta.className} bg-gradient-to-br text-white from-[#102333] to-[#1A112E] antialiased`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
