@@ -1,5 +1,18 @@
-## Next.js App Router Course - Starter
+## Tugas project next.js JDA
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+### Tugas Pertemuan Pertama
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+1. Install project Next.js ✅
+
+### Tugas Pertemuan Kedua
+
+1. Buat Minimal 2 Halaman Statis ✅
+
+- halaman home (/)
+- halaman movies (/movies)
+- halaman profile (/profile)
+
+2. Buat Halaman Not Found (404) ✅
+3. Buat Minimal 1 Halaman Dynamic Route ✅
+   - halaman detail movie (/movies/[slug])
+4. Tambahkan Navigasi Antar Halaman ✅
